@@ -41,3 +41,8 @@
   max-width: 100%;
   max-height: 100%;
 }
+
+#home3{
+  background: linear-gradient(to right, #f8c5d7, #d3e4fc, #ffffff);
+
+}
