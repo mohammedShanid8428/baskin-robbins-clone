@@ -79,12 +79,35 @@
   <!--items section-->
 
   <section>
-    <div class="carousel d-flex justify-content-center" id="carouselDemo2">
+    <div class="carousel carousel-dark" id="carouselDemo2" slide data-bs-ride=""="">
       <div class="carousel-inner d-flex">
         <div class="carousel-item active">
           <div class="cards-wrapper d-flex">
-            <div class="card" style="width: 20rem;">
-              <img src="./images/item1.jpeg" alt="" >
+            <div class="card m-2" style="width: 20rem;">
+              <div class="image-wrapper">
+                <img src="./images/item1.jpeg" alt="" class="card-img-top">
+              </div>
+              
+              <div class="card-body">
+                <h5 class="card-title">ice cream</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
+                <a href="" class="btn btn-danger">order now</a>
+              </div>
+            </div>
+            <div class="card m2 border-0" style="width: 20rem;">
+              <div class="image-wrapper">
+                <img src="./images/item1.jpeg" alt="" class="card-img-top">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">ice cream</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
+                <a href="" class="btn btn-danger">order now</a>
+              </div>
+            </div>
+            <div class="card m2" style="width: 20rem;">
+              <div class="image-wrapper">
+                <img src="./images/item1.jpeg" alt="" class="card-img-top">
+              </div>
               <div class="card-body">
                 <h5 class="card-title">ice cream</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
@@ -92,23 +115,9 @@
               </div>
             </div>
             <div class="card" style="width: 20rem;">
-              <img src="./images/item2.jpeg" alt="" >
-              <div class="card-body">
-                <h5 class="card-title">ice cream</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
-                <a href="" class="btn btn-danger">order now</a>
+              <div class="image-wrapper d-flex justify-content-center align-item-center">
+                <img src="./images/item1.jpeg" alt="" class="card-img-top">
               </div>
-            </div>
-            <div class="card" style="width: 20rem;">
-              <img src="./images/item3.jpeg" alt="" >
-              <div class="card-body">
-                <h5 class="card-title">ice cream</h5>
-                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
-                <a href="" class="btn btn-danger">order now</a>
-              </div>
-            </div>
-            <div class="card" style="width: 20rem;">
-              <img src="./images/item4.jpeg" alt="" >
               <div class="card-body">
                 <h5 class="card-title">ice cream</h5>
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, quae.</p>
@@ -116,6 +125,14 @@
               </div>
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo2" data-bs-silde="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo2" data-bs-silde="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">next</span>
+          </button>
         </div>
       </div>
 

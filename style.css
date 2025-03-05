@@ -21,3 +21,10 @@
   height: 60vh;
 
 }
+.image-wrapper{
+  height: 60vh;
+}
+.image-wrapper img{
+  max-width: 100%;
+  max-height: 100%;
+}
