@@ -17,6 +17,7 @@
 .carousel-indicators button.active img{
   border: 2px solid blue;
 }
-.carouselDemo{
-  position: relative;
+.carousel-inner img{
+  height: 60vh;
+
 }
