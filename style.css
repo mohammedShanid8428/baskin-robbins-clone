@@ -47,5 +47,9 @@ body{
   position: relative;
 }
 .carousel-control-prev-icon{
-  transform: translateX(-10px);
+  transform: translateX(-30px);
 }
+.carousel-control-prev-icon{
+  transform: translateX(30px);
+}
+
