@@ -39,24 +39,19 @@ body{
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   border-bottom:10px rgba(0,0,0,0.2);
  }
-/* .img{
-  position: relative;
-  padding-bottom: 20px;
-  display:inline-block ;
-}
-/* .img::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 3px;
-  background-color: transparent;
-  transition: width 0.3s ease-in-out;
-} */
-img:hover{
-  background-color: #e91e63; */
-}
+
+ .shop-card{
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+ }
+
+ .shop-card:hover{
+  transform: translateY(-15px) scale(1.15);
+  box-shadow: 0 10 20 rgba(0,0, 0,0.2);
+
+ }
+
 
 .image-wrapper{
   margin: 0 auto;
