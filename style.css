@@ -16,10 +16,10 @@ body{
   margin-right: 1rem;
 }
 
-.card{
+/* .card{
   margin: 1rem auto;
   width: calc(100%/2);
-}
+} */
 
 @media screen and (max-width: 567px){
   .card:not(:first-child){
@@ -29,7 +29,6 @@ body{
   
 
 .image-wrapper{
-  height: 60vh;
   margin: 0 auto;
 }
 .image-wrapper img{
