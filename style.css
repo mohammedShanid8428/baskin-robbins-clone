@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.header{
+  height: 120px;
+
+
+}
+body{
+  padding-top:93px;
+}
+.order-btn{
+  background-color: #f20c90;
+  margin-right: 1rem;
+}
 
 .carousel-indicators img{
   width: 70px;

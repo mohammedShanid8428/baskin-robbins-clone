@@ -23,20 +23,35 @@
 
 <body>
   <!--header secission-->
-  <header class="container-fluid d-flex justify-content-between align-item-center border-bottom fixed-top ">
-    <div class="d-flex mt-4 w-25">
-      <img src="./images/" alt="" width="50px" height="50px">
+  <header class=" fixed-top bg-light border-bottom">
+   <div class=" bg-light px-4 py-2" style="margin-right: 36px;margin-left: 36px;">
+    <div class="d-flex  align-items-center justify-content-between py-md-4 py-0 px-2 header-action wrapper">
+      <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">BASKIN ROBBINS</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p class="fw-2 fs-4">Order Now</p>
+          <p class="fw-2 fs-4">Partner With Us</p>
+          <p class="fw-2 fs-4">About Us</p>
+          <p class="fw-2 fs-4">Out Store</p>
+          
+        </div>
+      </div>
+      <img src="./images/Burger_Menu.png" alt=""width="62px" height="42px" class="ms-5 mt-2 btn " data-bs-toggle="offcanvas" data-bs-target="#demo">
+      <img src="./images/Main_Logo.webp" alt="" width="256px" height="50px" class="ms-5">
+      <a href="" class="btn border fw-5 ms=auto text-white px-4 py-2 fw-5 order-btn">ORDER NOW</a>
+
     </div>
-    <div class="logo ">
-      <img src="./images/Baskin-Rоbbins-Logo.png" alt="" width="150px" height="120px">
-    </div>
-    <button class="btn w-25 "><a href="" class="btn botder bg-danger text-light fw-5 ms-auto">ORDER NOW</a></button>
+  </div>
+    
   </header><br>
 
   <!--home section-->
 
   <section>
-    <div class="carousel slide container-fluid d-flex justify-content-center align-item-center mt-5 pt-5 w-100 px-0"
+    <div class="carousel slide container-fluid d-flex justify-content-center align-item-center   w-100 px-0"
       id="carouselDemo" data-bs-wrap="true" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
