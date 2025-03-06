@@ -28,7 +28,35 @@ body{
     display: none;
   }
 }
-  
+.img{
+  transition: transform 0.3s ease,box-shadow 0.3s ease;
+  border-radius: 30px;
+  padding-bottom:20px ;
+}
+
+.img:hover{
+  transform:translateY(-50px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-bottom:10px rgba(0,0,0,0.2);
+ }
+/* .img{
+  position: relative;
+  padding-bottom: 20px;
+  display:inline-block ;
+}
+/* .img::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: transparent;
+  transition: width 0.3s ease-in-out;
+} */
+img:hover{
+  background-color: #e91e63; */
+}
 
 .image-wrapper{
   margin: 0 auto;
