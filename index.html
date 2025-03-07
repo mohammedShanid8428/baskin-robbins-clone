@@ -23,74 +23,73 @@
 
 <body>
   <!--header secission-->
-  <header class=" fixed-top bg-light border-bottom">
-    <div class=" bg-light px-4 py-2" style="margin-right: 36px;margin-left: 36px;">
-      <div class="d-flex  align-items-center justify-content-between py-md-4 py-0 px-2 header-action wrapper">
-        <div class="offcanvas offcanvas-start" id="demo">
-          <div class="offcanvas-header">
-            <h1 class="offcanvas-title">BASKIN ROBBINS</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
-          </div>
-          <div class="offcanvas-body">
-            <p class="fw-2 fs-4">Order Now</p>
-            <p class="fw-2 fs-4">Partner With Us</p>
-            <p class="fw-2 fs-4">About Us</p>
-            <p class="fw-2 fs-4">Out Store</p>
+  <header class="container-fluid fixed-top bg-light border-bottom">
+    <div class="bg-light ">
+      <div class=" d-flex justify-content-between align-content-center my-4 header-action wrapper">
 
-          </div>
-        </div>
         <div class="img-collapse">
-          <img src="./images/Burger_Menu.png" alt="" width="62px" height="42px" class="ms-5 mt-2 btn "
-            data-bs-toggle="offcanvas" data-bs-target="#demo">
+          <img src="./images/Burger_Menu.png" alt="" width="52px" class="btn" data-bs-toggle="offcanvas"
+            data-bs-target="#demo">
         </div>
         <div class="logo">
-          <img src="./images/Main_Logo.webp" alt="" width="256px" height="50px" class="ms-5">
+          <img src="./images/Main_Logo.webp" alt="" width="256px" class="">
         </div>
-        <a href="" class="btn border fw-5 ms=auto text-white px-4 py-2 fw-5 order-btn">ORDER NOW</a>
-
+        <div class="my-auto px-2 flex-shrink-0">
+          <a href="" class="btn btn-sm border btn-dark order-btn ">ORDER NOW</a>
+        </div>
       </div>
     </div>
-
+    <div class="offcanvas offcanvas-start" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title">BASKIN ROBBINS</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="fw-2 fs-4">Order Now</p>
+        <p class="fw-2 fs-4">Partner With Us</p>
+        <p class="fw-2 fs-4">About Us</p>
+        <p class="fw-2 fs-4">Out Store</p>
+      </div>
+    </div>
   </header><br>
 
   <!--home section-->
 
-  <section>
-    <div class="carousel slide container-fluid d-flex justify-content-center align-item-center   w-100 px-0"
-      id="carouselDemo" data-bs-wrap="true" data-bs-ride="carousel">
+  <section class="container-fluid p-0">
+    <div class="carousel slide" id="carouselDemo" data-bs-wrap="true" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="2000">
-          <img src="./images/home1.webp" alt="" class="w-100 h-100">
+          <img src="./images/home1.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home2.webp" alt="" class="w-100 h-100">
+          <img src="./images/home2.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home3.webp" alt="" class="w-100 h-100">
+          <img src="./images/home3.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home4.webp" alt="" class="w-100 h-100">
+          <img src="./images/home4.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home5.webp" alt="" class="w-100 h-100">
+          <img src="./images/home5.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home6.webp" alt="" class="w-100 h-100">
+          <img src="./images/home6.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home7.webp" alt="" class="w-100 h-100">
+          <img src="./images/home7.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home7.webp" alt="" class="w-100 h-100">
+          <img src="./images/home7.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home8.webp" alt="" class="w-100 h-100">
+          <img src="./images/home8.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home9.webp" alt="" class="w-100 h-100">
+          <img src="./images/home9.webp" alt="" class="w-100">
         </div>
         <div class="carousel-item" data-bs-interval="1000">
-          <img src="./images/home10.webp" alt="" class="w-100 h-100">
+          <img src="./images/home10.webp" alt="" class="w-100">
         </div>
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="0" class="active rounded-circle"
@@ -113,9 +112,7 @@
             style="width: 10px; height: 10px;"></button>
           <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="9" class=" rounded-circle"
             style="width: 10px; height: 10px;"></button>
-                  
         </div>
-
       </div>
     </div>
 
@@ -371,7 +368,7 @@
             <div class="row align-item-center gap-3">
 
               <div class="card col-sm-12 col-md border-0" style="width: 23rem;">
-                <div class="image-wrapper p-4 rounded img" class="img-fluid mb-3" >
+                <div class="image-wrapper p-4 rounded img" class="img-fluid mb-3">
                   <img src="./images/favorites1.webp" alt="">
                 </div>
                 <div class="card-body text-center">
@@ -428,7 +425,7 @@
 
               <div class="card d-none d-lg-flex col border-0" style="width: 23rem;">
                 <div class="image-wrapper p-4 rounded img">
-                  <img src="./images/favorites1.webp" alt=""class="img-fluid mb-3">
+                  <img src="./images/favorites1.webp" alt="" class="img-fluid mb-3">
                 </div>
                 <div class="card-body text-center">
                   <h5 class="card-title fs-2 fw-bold">Mississippi Mud</h5>
@@ -566,33 +563,33 @@
   </section>
 
   <!--footer section-->
-  <footer class="footer text-center py-4 my-5">
-    <div class="container ">
-      <div class="row justify-content-center align-items-center text-center py-5">
+  <footer class="footer container-fluid px-0 py-4 mt-5">
+    <div class="container w-75">
+      <div class="row py-5 gap-3">
         <!-- Navigation Links -->
-        <div class="col-md-4">
+        <div class="col-12 col-md-5 col-lg">
           <ul class="list-unstyled">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Our Stores</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li class="mb-3"><a href="#">Home</a></li>
+            <li class="mb-3"><a href="#">About Us</a></li>
+            <li class="mb-3"><a href="#">Our Stores</a></li>
+            <li class="mb-3"><a href="#">Blogs</a></li>
           </ul>
         </div>
 
-        <div class="col-md-4">
+        <div class=" col-12 col-md-5 col-lg-3">
           <ul class="list-unstyled">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Franchise Enquiry</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
+            <li class="mb-3"><a href="#">Contact Us</a></li>
+            <li class="mb-3"><a href="#">Franchise Enquiry</a></li>
+            <li class="mb-3"><a href="#">Privacy Policy</a></li>
+            <li class="mb-3"><a href="#">Terms & Conditions</a></li>
           </ul>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-12 col-md-12 col-lg-6">
           <p>Subscribe to newsletter</p>
-          <div class="d-flex justify-content-center">
-            <input type="email" class="newsletter-input form-control w-75" placeholder="Enter your email">
-            <button class="btn btn-primary w-25 border border-2 rounded-2 submit-btn">Submit</button>
+          <div class="d-flex flex-wrap justify-content-center">
+            <input type="email" class="newsletter-input form-control w-75 m-1 " placeholder="Enter your email">
+            <button class="btn btn-primary border border-2 rounded-2 submit-btn m-1">Submit</button>
           </div>
         </div>
       </div>
@@ -602,12 +599,12 @@
       <!-- Social Media Icons -->
     </div>
 
-    <div class="row mt-4 text-center d-flex justify-content-between align-item-center py-5">
-      <div class="col">
+    <div class="row mt-4 text-center py-5">
+      <div class="col-12 col-md-5 col-lg">
         <p>Copyright|Baskins Robbins India</p>
       </div>
 
-      <div class="col">
+      <div class="col-12 col-md">
         <a href="#"><img src="/images/Facebook.webp" alt="" style="height: 50px; width: 50px;"></a>
         <a href="#"><img src="./images/Instagram.webp" alt="" style="height: 50px; width: 50px;"></a>
         <a href="#"><img src="./images/Twitter.webp" alt="" style="height: 50px; width: 50px;"></a>
@@ -615,7 +612,7 @@
       </div>
 
 
-      <div class="col">
+      <div class="col-12 col-md">
         <p>Sitemap</p>
       </div>
     </div>
