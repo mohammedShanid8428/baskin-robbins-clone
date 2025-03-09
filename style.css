@@ -12,8 +12,11 @@
 
 body {
   padding-top: 70px;
+  overflow-x: hidden;
 
 }
+
+
 
 .order-btn {
   background-color: #f20c90;
@@ -140,4 +143,8 @@ body {
 
 .copy {
   background: linear-gradient(to right, #f8c5d7, #d3e4fc, #ffffff);
+}
+
+section{
+  max-width: 100%;
 }
